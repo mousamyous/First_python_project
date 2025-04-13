@@ -49,7 +49,7 @@ root.title("Face Detection GUI")          # Set the window title
 root.geometry("800x600")                   # Set the window size
 
 # Create a button that lets the user select an image file, triggering the face detection process
-btn = tk.Button(root, text="اختر الصورة", command=select_image)
+btn = tk.Button(root, text="Select your image", command=select_image)
 # Place the button at the bottom of the window with padding and expand to fill available space
 btn.pack(side="bottom", fill="both", expand="yes", padx=10, pady=10)
 
